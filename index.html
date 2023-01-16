@@ -1,0 +1,163 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Weeknd</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="Images/logo.png" alt="Website Logo"></a>
+            <div class="nav-links" id="navLinks">
+              <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="music.html">MUSIC</a></li>
+                    <li><a href="signup.html">SIGN UP</a></li>
+                </ul>
+            </div>
+           <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+ 
+        <div class="main">
+            <h1>STREAM NEW MUSIC NOW</h1>
+            <p>Making website is now one of the easiest thing in the world. You just need to learn HTML, CSS, Javascript and you are good to go.</p>
+            <a href="music.html" class="view-btn">DISCOVER THE NEWEST RELEASES</a>
+         </div>
+    </section>
+
+    <!-- Music Info Section -->
+    <section class="latest-music">
+        <h1>Latest Releases</h1>
+        <p>Lorem ipsụm dolor sit amet, consectetur adipiscing elit.</p>
+        
+        <div class="row">
+            <div class="music-col">
+                <h3>REMINDER</h3>
+                <p>"Reminder" is a song recorded by Canadian singer-songwriter the Weeknd from his third studio album, Starboy (2016). It was written by him with Dylan Wiggns, Jason Quenneville and its producers Doc McKinney, Mano and Cirkut. The song was released to rhythmic contemporary radio on May 9, 2017, as the album's fourth single in the United States. The official remix was released on August 1, 2017 and features new verses from American rappers ASAP Rocky and Young Thug.</p>
+            </div>
+    
+            <div class="music-col">
+                <h3>DAWN FM</h3>
+                <p>Dawn FM is the fifth studio album by Canadian singer-songwriter the Weeknd, released on January 7, 2022, through XO and Republic Records. It features narration by Jim Carrey, guest vocals from Tyler, the Creator and Lil Wayne, and spoken word appearances from Quincy Jones and Josh Safdie. As the album's executive producers, the Weeknd, Max Martin and Oneohtrix Point Never recruited a variety of other producers such as Oscar Holter, Calvin Harris and Swedish House Mafia.</p>
+            </div>
+    
+            <div class="music-col">
+                <h3>HEARTLESS</h3>
+                <p>"Heartless" is a song recorded by Canadian singer-songwriter the Weeknd. It was released on November 27, 2019, through XO and Republic Records, as the lead single from his fourth studio album After Hours (2020). The Weeknd wrote and produced the song alongside Metro Boomin, Illangelo, and Dre Moon. The song combined R&B and trap with elements of electroclash.</p>
+            </div>
+        </div>    
+    </section>
+
+    <!-- Section for Music Reviews -->
+    <section class="reviews">
+        <h1>Reviews</h1>
+        <p>Lorem ipsụm dolor sit amet, consectetur adipiscing elit.</p>
+            
+        <div class="row">
+            <div class="reviews-col">
+                <img src="Images/icon1.jpeg" alt="Image Profile Icon Image">
+                <div>
+                    <p>Conceptualized around listening to a retro-pop radio station in purgatory, Abel's fifth album is the most thoughtful, melodic, and revealing project of his career.</p>
+                    <h3>Bloomberg</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+
+                </div>
+            </div>
+        
+            <div class="reviews-col">
+                <img src="Images/icon2.jpeg" alt="Image Profile Icon Image">
+                <div>
+                    <p>With Beauty Behind the Madness, Abel Tesfaye achieved pop stardom without compromising his vision.</p>
+                    <h3>Forbes</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+
+                </div>
+            </div>
+
+            <div class="reviews-col">
+                <img src="Images/icon3.jpeg" alt="Image Profile Icon Image">
+                <div>
+                    <p>Abel finally delivers on his long-running vision, leveraging a self-loathing villain into an irresistible, cinematic narrative with his most satisfying collision of new wave, dream pop, and R&B.</p>
+                    <h3>New York Times</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    
+    <!--JavaScript for Toggle Menu-->
+    <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0"
+    }
+    
+    function hideMenu(){
+        navLinks.style.right = "-150px";
+   }
+   </script>
+</body>
+
+<!--Footer-->
+<footer>
+    <div class="footer_info">
+        <div class="footer_width about">
+            <h1>About</h1>
+            <p><br>Makkonen Tesfaye (born February 16, 1990), known professionally as the Weeknd, is a Canadian singer-songwriter and record producer. Known for his sonic versatility and dark lyricism, Tesfaye's music explores escapism, romance, and melancholia, and is often inspired by personal experiences. He has received numerous accolades, including three Grammy Awards, nineteen Billboard Music Awards, fifteen Juno Awards, six American Music Awards, two MTV Video Music Awards, and an Academy Award nomination.</p>
+            <div class="social-media">
+                <ul>
+                    <li><a href="https://www.facebook.com/theweeknd"><i class="fa fa-facebook-square"></i></a></li>
+                    <li><a href="https://www.youtube.com/user/TheWeekndVEVO"><i class="fa fa-youtube-play"></i></a></li>
+                    <li><a href="https://www.instagram.com/theweeknd/"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_width link">
+            <h2>Quick Links</h2>
+            <ul>
+                <br>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="music.html">MUSIC</a></li>
+                <li><a href="signup.html">SIGN UP</a></li>
+           </ul>
+        </div>
+        <div class="footer_width contact">
+            <h2>More Info</h2>
+            <ul>
+                <br>
+                <li>
+                    <p>Toronto, Ontario, Canada</p>
+                </li>
+                <li>
+                    <p>info@theweeknd.com</p>
+                </li>
+                <li>
+                    <p>07459 111 222</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+</html>

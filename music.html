@@ -1,0 +1,143 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="music-header">
+        <nav>
+            <a href="index.html"><img src="Images/logo.png" alt="Website Logo"></a>
+            <div class="nav-links" id="navLinks">
+              <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="music.html">MUSIC</a></li>
+                    <li><a href="signup.html">SIGN UP</a></li>
+                </ul>
+            </div>
+           <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+ 
+        <div class="main">
+            <h1>VIEW EVENTS NOW</h1>
+            <p>Making website is now one of the easiest thing in the world. You just need to learn HTML, CSS, Javascript and you are good to go.</p>
+            <a href="index.html" class="view-btn">READ THE REVIEWS</a>
+         </div>
+    </section>
+
+    <!-- Music Row Section -->
+    <section class="music-row">
+        <h1>Latest Music</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+        <div class="row">
+            <div class="music-row-col">
+               <img src="Images/reminder.jpeg" alt="Reminder Album Image">
+               <div class="music-layer">
+                   <h3>REMINDER</h3>
+            </div>
+            </div>
+
+            <div class="music-row-col">
+                <img src="Images/dawn.jpeg" alt="DAWN FM Album Image">
+                <div class="music-layer">
+                    <h3>DAWN FM</h3>
+                </div>
+             </div>
+
+             <div class="music-row-col">
+                <img src="Images/out-of-time.jpeg" alt="OUT OF TIME Album Image">
+                <div class="music-layer">
+                    <h3>OUT OF TIME</h3>
+                </div>
+             </div>
+
+             <div class="music-row-col">
+                <img src="Images/blinding-lights.jpeg" alt="BLINDING LIGHTS Album Image">
+                <div class="music-layer">
+                    <h3>BLINDING LIGHTS</h3>
+                </div>
+             </div>
+         </div>
+
+    </section>
+
+    <!-- Sign Up Banner -->
+    <section class="signup-banner">
+        <h1>NEWSLETTER</h1>
+        <p>Get events, music releases and exclusive news by signing up now!</p>
+
+        <div class="signup-row">
+            <div class="signup-banner-row">
+               <img src="Images/3.png" alt="Sign Up Banner Background Image">
+               <div class="layer">
+                   <h3><a href="signup.html">SIGN UP</a></h3>
+            </div>
+            </div>
+         </div>
+
+    </section>
+
+    <!--JavaScript for Toggle Menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0"
+        }
+            
+        function hideMenu(){
+            navLinks.style.right = "-150px";
+        }
+    </script>
+
+</body>
+
+<!--Footer-->
+<footer>
+    <div class="footer_info">
+        <div class="footer_width about">
+            <h1>About</h1>
+            <p><br>Makkonen Tesfaye (born February 16, 1990), known professionally as the Weeknd, is a Canadian singer-songwriter and record producer. Known for his sonic versatility and dark lyricism, Tesfaye's music explores escapism, romance, and melancholia, and is often inspired by personal experiences. He has received numerous accolades, including three Grammy Awards, nineteen Billboard Music Awards, fifteen Juno Awards, six American Music Awards, two MTV Video Music Awards, and an Academy Award nomination.</p>
+            <div class="social-media">
+                <ul>
+                    <li><a href="https://www.facebook.com/theweeknd"><i class="fa fa-facebook-square"></i></a></li>
+                    <li><a href="https://www.youtube.com/user/TheWeekndVEVO"><i class="fa fa-youtube-play"></i></a></li>
+                    <li><a href="https://www.instagram.com/theweeknd/"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_width link">
+            <h2>Quick Links</h2>
+            <ul>
+                <br>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="music.html">MUSIC</a></li>
+                <li><a href="signup.html">SIGN UP</a></li>
+           </ul>
+        </div>
+        <div class="footer_width contact">
+            <h2>More Info</h2>
+            <ul>
+                <br>
+                <li>
+                    <p>Toronto, Ontario, Canada</p>
+                </li>
+                <li>
+                    <p>info@theweeknd.com</p>
+                </li>
+                <li>
+                    <p>07459 111 222</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+</html>
